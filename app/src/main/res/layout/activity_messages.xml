@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jmark.uchat.Messages">
+
+    <Button
+        android:id="@+id/chat4"
+        android:layout_width="375dp"
+        android:layout_height="63dp"
+        android:layout_marginRight="4dp"
+        android:text="Chat5"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <Button
+        android:id="@+id/chat3"
+        android:layout_width="375dp"
+        android:layout_height="63dp"
+        android:layout_marginRight="4dp"
+        android:text="Chat4"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <Button
+        android:id="@+id/chat2"
+        android:layout_width="375dp"
+        android:layout_height="63dp"
+        android:layout_marginRight="4dp"
+        android:text="Chat3"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/chat1"
+        android:layout_width="375dp"
+        android:layout_height="63dp"
+        android:layout_marginRight="4dp"
+        android:text="Chat2"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="56dp" />
+
+
+    <Button
+        android:id="@+id/chat0"
+        android:layout_width="375dp"
+        android:layout_height="63dp"
+        android:layout_marginRight="4dp"
+        android:text="Chat1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="-7dp" />
+
+</android.support.constraint.ConstraintLayout>
