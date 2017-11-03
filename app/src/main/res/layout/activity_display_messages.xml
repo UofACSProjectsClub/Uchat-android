@@ -4,14 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jmark.uchat.Messages">
-
-    <ListView
-        android:id="@+id/chats"
-        android:layout_height="wrap_content"
-        android:layout_width="368dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="8dp">
-    </ListView>
+    tools:context="com.example.jmark.uchat.displayMessages">
 
 </android.support.constraint.ConstraintLayout>
